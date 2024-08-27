@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "autoadvertiser",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for Meteor Client addons.",
+  "name": "Auto Advertiser",
+  "description": "Advertise your stuff on servers.",
   "authors": [
-    "seasnail"
+    "AndrexYT"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/AndrexYT/AutoAdvertiser"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.AddonTemplate"
+      "com.AndrexYT.AutoAdvertiser.addon.AddonTemplate"
     ]
   },
   "mixins": [
